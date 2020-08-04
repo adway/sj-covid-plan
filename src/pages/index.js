@@ -1,14 +1,18 @@
 /** @jsx jsx */
-import { jsx, Text } from 'theme-ui';
+import { jsx, Container, Heading, Text } from 'theme-ui';
 import Masthead from '../components/masthead';
 
 export default () => {
   return (
     <div>
       <Masthead color='#7f1139'>
-        <h1>Thoughts.</h1>
-        <h2 sx={{ color: 'gray' }}>A blog by Adway Wadekar</h2>
-        <Text sx={{ textAlign: 'justify' }}>
+        <Heading as='h1' sx={{ fontSize: 6, mb: 2 }}>
+          Saint John's students:
+        </Heading>
+        <Heading as='h2' sx={{ fontSize: 4 }}>
+          We need to speak up.
+        </Heading>
+        <Text>
           Why write? Well, that is an interesting question. Honestly, I've
           always wanted a space where I can chronicle my thoughts so that I can
           look back upon them later. Why write publicly? Well, that's an

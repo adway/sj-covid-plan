@@ -13,15 +13,16 @@ export default (props) => {
       }}
     >
       <Meta />
-      <main
+      <div
         sx={{
           width: '100%',
-
           flex: '1 1 auto',
+          px: 0,
+          mx: 0,
         }}
       >
-        <div>{props.children}</div>
-      </main>
+        {props.children}
+      </div>
       <Box as='footer' sx={{ textAlign: 'center', px: 3, py: [3, 4] }}>
         <Container
           sx={{

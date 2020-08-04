@@ -14,6 +14,7 @@ export default {
   fonts: {
     body: "'Lora', serif",
     monospace: 'Roboto Mono", Menlo, monospace',
+    heading: "'Lora', serif",
   },
   lineHeights: {
     body: 1.625,
@@ -56,6 +57,8 @@ export default {
       transitionProperty: 'background-color',
       transitionTimingFunction: 'ease-out',
       transitionDuration: '.4s',
+      m: 0,
+      p: 0,
     },
     a: {
       color: 'primary',
