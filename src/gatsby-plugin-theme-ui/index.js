@@ -43,7 +43,6 @@ export default {
       color: 'background',
       bg: 'sj',
       fontFamily: 'body',
-      mt: 3,
       px: 3,
       a: {
         color: 'inherit',
@@ -78,18 +77,6 @@ export default {
     p: {
       textAlign: 'justify',
     },
-  },
-  h1: {
-    variant: 'text.heading',
-    fontSize: 3,
-  },
-  h2: {
-    variant: 'text.heading',
-    fontSize: 2,
-  },
-  h3: {
-    variant: 'text.heading',
-    fontSize: 1,
   },
   img: {
     maxWidth: '100%',

@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx, Container, Heading, Text, Button } from 'theme-ui';
 import Masthead from '../components/masthead';
+import { ChevronsRight } from 'react-feather';
 
 export default () => {
   return (
@@ -36,13 +37,22 @@ export default () => {
           only a few weeks away so we have only <b>a few days</b> to make sure
           we get a say, so please respond ASAP.
         </Text>
-        <Button sx={{ mx: 4 }}>
+        <Button
+          sx={{
+            mx: [3, 4],
+            mt: 4,
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
           <a
             href='https://stjohnshigh.myschoolapp.com/podium/push/default.aspx?i=357178&s=697&snd=446a412b-9523-42ee-a226-580634f643b4'
             target='_blank'
           >
             Read SJ's most recent letter
           </a>
+          <ChevronsRight />
         </Button>
       </Container>
     </div>
