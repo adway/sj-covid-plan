@@ -5,11 +5,6 @@ export default {
     text: '#000',
     background: '#fff',
     sj: 'rgb(124,45,53)',
-    primary: 'hsl(240, 100%, 57%)',
-    secondary: 'hsl(260, 100%, 57%)',
-    accent: 'hsl(280, 100%, 57%)',
-    muted: '#f9f9fc',
-    gray: '#555',
   },
 
   fonts: {
