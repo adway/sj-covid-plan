@@ -59,11 +59,10 @@ export default () => {
           1. <span sx={{ fontWeight: 'body' }}>Rank from 1 to 5</span>
         </Heading>
         <Text>
-          We've created a list of agree-disagree statements to poll your opinion
-          on the school's plan. All you need to do is rank each statement based
-          on how much you agree from 1 to 5. We'll compile the results of this
-          poll into our letter to the administration. It should take under 2
-          minutes.
+          We've created a list of statements to poll your opinion on the
+          school's plan. All you need to do is answer them <b>honestly</b>.
+          We'll compile the results of this poll into our letter to the
+          administration. It should take under 2 minutes.
         </Text>
         <Button sx={{ width: '100%' }}>
           <a href='https://forms.gle/UkMus8bmBZKm5kXL7' target='_blank'>
