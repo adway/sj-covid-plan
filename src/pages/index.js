@@ -6,20 +6,12 @@ export default () => {
   return (
     <div>
       <Masthead color='#7f1139'>
-        <Heading as='h1' sx={{ fontSize: 6, mb: 2 }}>
-          Saint John's students:
+        <Heading as='h1' sx={{ fontSize: [5, 6], mb: 3 }}>
+          Saint John's students, we need to speak up.
         </Heading>
-        <Heading as='h2' sx={{ fontSize: 4 }}>
-          We need to speak up.
-        </Heading>
-        <Text>
-          Why write? Well, that is an interesting question. Honestly, I've
-          always wanted a space where I can chronicle my thoughts so that I can
-          look back upon them later. Why write publicly? Well, that's an
-          interesting question too. Historians base much of their research on
-          the written record. Without writing, we would know very little about
-          our past. We all come from somewhere and we all have our own stories.
-          So here's mine. Maybe it'll be of use to someone later.
+        <Text sx={{ fontSize: 2 }}>
+          Let's make sure the administration knows how we honestly feel about
+          returning to school.
         </Text>
       </Masthead>
     </div>

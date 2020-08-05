@@ -13,17 +13,16 @@ export default (props) => {
       }}
     >
       <Meta />
-      <div
+      <main
         sx={{
           width: '100%',
+          mx: 'auto',
           flex: '1 1 auto',
-          px: 0,
-          mx: 0,
         }}
       >
-        {props.children}
-      </div>
-      <Box as='footer' sx={{ textAlign: 'center', px: 3, py: [3, 4] }}>
+        <div>{props.children}</div>
+      </main>
+      <Box as='footer' sx={{ textAlign: 'center', px: 3, py: 1 }}>
         <Container
           sx={{
             alignItems: 'center',
@@ -32,10 +31,7 @@ export default (props) => {
             a: { color: 'text' },
           }}
         >
-          &copy;{' '}
-          <a href='https://adway.io' target='_blank'>
-            Adway S. Wadekar
-          </a>
+          A project by Adway Wadekar.
         </Container>
       </Box>
     </div>
