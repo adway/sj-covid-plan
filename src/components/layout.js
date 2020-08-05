@@ -34,7 +34,7 @@ export default (props) => {
             fontSize: 0,
           }}
         >
-          A project by a rising senior at SJ.
+          A project by Adway Wadekar.
         </Container>
       </Box>
     </div>

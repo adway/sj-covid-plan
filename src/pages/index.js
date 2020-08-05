@@ -66,7 +66,7 @@ export default () => {
           minutes.
         </Text>
         <Button sx={{ width: '100%' }}>
-          <a href='https://google.com' target='_blank'>
+          <a href='https://forms.gle/UkMus8bmBZKm5kXL7' target='_blank'>
             Fill out the form
           </a>
           <ChevronsRight />
@@ -81,7 +81,7 @@ export default () => {
           administration.
         </Text>
         <Button sx={{ width: '100%' }}>
-          <a href='https://google.com' target='_blank'>
+          <a href='https://forms.gle/aYvEvWGMSfthRz2u8' target='_blank'>
             Share a free response
           </a>
           <ChevronsRight />
