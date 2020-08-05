@@ -1,7 +1,7 @@
 {
-  "name": "blog",
+  "name": "sj-covid-plan",
   "private": true,
-  "description": "A place on the internet for Adway to say things.",
+  "description": "Gauge the opinions of peers about school reopening.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

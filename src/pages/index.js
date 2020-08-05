@@ -6,7 +6,7 @@ import { ChevronsRight } from 'react-feather';
 export default () => {
   return (
     <div>
-      <Masthead>
+      <Masthead backgroundColor='sj' color='white'>
         <Heading as='h1' sx={{ fontSize: [5, 6], mb: 3 }}>
           Saint John's students, let's make our voices heard.
         </Heading>
@@ -40,10 +40,6 @@ export default () => {
         <Button
           sx={{
             mx: [3, 4],
-            mt: 4,
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
           }}
         >
           <a
@@ -55,6 +51,42 @@ export default () => {
           <ChevronsRight />
         </Button>
       </Container>
+      <Masthead backgroundColor='rgb(238,236,224)' color='text'>
+        <Heading as='h1' sx={{ fontSize: [5, 6] }}>
+          How you can help:
+        </Heading>
+        <Heading as='h2' sx={{ fontSize: [3, 4] }}>
+          1. <span sx={{ fontWeight: 'body' }}>Rank from 1 to 5</span>
+        </Heading>
+        <Text>
+          We've created a list of agree-disagree statements to poll your opinion
+          on the school's plan. All you need to do is rank each statement based
+          on how much you agree from 1 to 5. We'll compile the results of this
+          poll into our letter to the administration. It should take under 2
+          minutes.
+        </Text>
+        <Button sx={{ width: '100%' }}>
+          <a href='https://google.com' target='_blank'>
+            Fill out the form
+          </a>
+          <ChevronsRight />
+        </Button>
+        <Heading as='h2' sx={{ fontSize: [3, 4] }}>
+          2. <span sx={{ fontWeight: 'body' }}>Free-form response</span>
+        </Heading>
+        <Text>
+          If you have time, we'd really appreciate any extended thoughts that
+          you have on SJ's plan. Two sentences, an essay — all totally fine.
+          Portions of these will compose the large majority of our letter to the
+          administration.
+        </Text>
+        <Button sx={{ width: '100%' }}>
+          <a href='https://google.com' target='_blank'>
+            Share a free response
+          </a>
+          <ChevronsRight />
+        </Button>
+      </Masthead>
     </div>
   );
 };

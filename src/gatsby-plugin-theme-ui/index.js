@@ -44,9 +44,20 @@ export default {
       bg: 'sj',
       fontFamily: 'body',
       px: 3,
+      my: 3,
       a: {
         color: 'inherit',
         textDecoration: 'none',
+      },
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      transition: 'all 0.2s ease-in-out',
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.125)',
+      ':hover': {
+        transform: 'scale(1.0625)',
+        boxShadow:
+          '0 1px 2px rgba(0, 0, 0, 0.0625), 0 8px 12px rgba(0, 0, 0, 0.125)',
       },
     },
   },
@@ -77,6 +88,18 @@ export default {
     p: {
       textAlign: 'justify',
     },
+  },
+  h1: {
+    variant: 'text.heading',
+    fontSize: 3,
+  },
+  h2: {
+    variant: 'text.heading',
+    fontSize: 2,
+  },
+  h3: {
+    variant: 'text.heading',
+    fontSize: 1,
   },
   img: {
     maxWidth: '100%',
