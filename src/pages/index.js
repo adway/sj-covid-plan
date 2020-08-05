@@ -15,7 +15,7 @@ export default () => {
           returning to school.
         </Text>
       </Masthead>
-      <Container sx={{ px: 3, py: 5 }}>
+      <Container sx={{ px: 3, py: 4 }}>
         <Text>
           Saint John's High School has created <b>multiple plans</b> for our
           return to learning, most of them involving a return to campus.

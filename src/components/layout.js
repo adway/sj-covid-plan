@@ -18,6 +18,8 @@ export default (props) => {
           width: '100%',
           mx: 'auto',
           flex: '1 1 auto',
+          mt: 0,
+          pt: 0,
         }}
       >
         <div>{props.children}</div>

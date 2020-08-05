@@ -15,7 +15,6 @@ export default ({
     <meta name='description' content={description} />
     <meta property='og:description' content={description} />
     <meta name='twitter:description' content={description} />
-    {/* <link rel='shortcut icon' href='/favicon.ico' /> */}
     <link
       href='https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap'
       rel='stylesheet'

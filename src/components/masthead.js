@@ -6,21 +6,11 @@ export default ({ children, backgroundColor, color }) => (
     sx={{
       backgroundColor: `${backgroundColor}`,
       color: `${color}`,
-      h1: {
-        my: 4,
-      },
-      h2: {
-        my: 3,
-      },
-      py: 3,
+      py: 4,
+      h1: { mb: 3 },
+      h2: { mb: 2 },
     }}
   >
-    <Container
-      sx={{
-        px: 3,
-      }}
-    >
-      {children}
-    </Container>
+    <Container sx={{ px: 3 }}>{children}</Container>
   </div>
 );
