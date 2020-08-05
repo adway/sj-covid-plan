@@ -11,7 +11,7 @@ export default ({
     <meta property='og:title' content={name} />
     <meta name='twitter:title' content={name} />
     <meta property='og:type' content='website' />
-    <meta property='og:site_name' content='Thoughts.' />
+    <meta property='og:site_name' content={name} />
     <meta name='description' content={description} />
     <meta property='og:description' content={description} />
     <meta name='twitter:description' content={description} />
