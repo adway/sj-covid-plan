@@ -4,6 +4,7 @@ export default {
   colors: {
     text: '#000',
     background: '#fff',
+    sj: 'rgb(124,45,53)',
     primary: 'hsl(240, 100%, 57%)',
     secondary: 'hsl(260, 100%, 57%)',
     accent: 'hsl(280, 100%, 57%)',
@@ -12,7 +13,7 @@ export default {
   },
 
   fonts: {
-    body: "'Lora', serif",
+    body: '"Lora", serif',
     monospace: 'Roboto Mono", Menlo, monospace',
     heading: "'Lora', serif",
   },
@@ -25,7 +26,7 @@ export default {
     heading: 700,
     bold: 600,
   },
-  fontSizes: [14, 18, 24, 28, 36, 48, 64, 72, 96, 128],
+  fontSizes: [16, 18, 24, 28, 36, 48, 64, 72, 96, 128],
   sizes: {
     container: 768,
     wide: 1280,
@@ -40,6 +41,19 @@ export default {
     },
     small: {
       fontSize: 0,
+    },
+  },
+  buttons: {
+    primary: {
+      color: 'background',
+      bg: 'sj',
+      fontFamily: 'body',
+      mt: 3,
+      px: 3,
+      a: {
+        color: 'inherit',
+        textDecoration: 'none',
+      },
     },
   },
   radii: {

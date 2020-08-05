@@ -22,16 +22,18 @@ export default (props) => {
       >
         <div>{props.children}</div>
       </main>
-      <Box as='footer' sx={{ textAlign: 'center', px: 3, py: 1 }}>
+      <Box as='footer' sx={{ textAlign: 'center', px: 3, py: 2 }}>
         <Container
           sx={{
             alignItems: 'center',
             justifyContent: 'center',
             color: 'text',
             a: { color: 'text' },
+            fontSize: 0,
           }}
         >
-          A project by Adway Wadekar.
+          A project by Adway Wadekar. Based on a site by Westborough High School
+          students.
         </Container>
       </Box>
     </div>

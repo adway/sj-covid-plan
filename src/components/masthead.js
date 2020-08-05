@@ -5,7 +5,7 @@ import { Container, jsx } from 'theme-ui';
 export default ({ children, color }) => (
   <div
     sx={{
-      backgroundColor: 'rgb(124,45,53)',
+      backgroundColor: 'sj',
       color: 'background',
     }}
   >
