@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('/Volumes/Samsung_T5/src/sj-covid-plan/node_modules/gatsby-plugin-theme-ui/gatsby-ssr'),
+      plugin: require('/Users/adway/src/sj-covid-plan/node_modules/gatsby-plugin-theme-ui/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Volumes/Samsung_T5/src/sj-covid-plan/node_modules/gatsby-plugin-layout/gatsby-ssr'),
-      options: {"plugins":[],"component":"/Volumes/Samsung_T5/src/sj-covid-plan/src/components/layout.js"},
+      plugin: require('/Users/adway/src/sj-covid-plan/node_modules/gatsby-plugin-layout/gatsby-ssr'),
+      options: {"plugins":[],"component":"/Users/adway/src/sj-covid-plan/src/components/layout.js"},
     },{
-      plugin: require('/Volumes/Samsung_T5/src/sj-covid-plan/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      plugin: require('/Users/adway/src/sj-covid-plan/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx",".md"]},
     },{
-      plugin: require('/Volumes/Samsung_T5/src/sj-covid-plan/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/adway/src/sj-covid-plan/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

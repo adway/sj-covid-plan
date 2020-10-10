@@ -6,7 +6,6 @@ export default {
     background: '#fff',
     sj: 'rgb(124,45,53)',
   },
-
   fonts: {
     body: '"Lora", serif',
     monospace: 'Roboto Mono", Menlo, monospace',
