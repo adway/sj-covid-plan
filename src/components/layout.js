@@ -34,7 +34,7 @@ export default (props) => {
             fontSize: 0,
           }}
         >
-          A project by Adway Wadekar.
+          A project by Adway Wadekar. Inspired by students at Westborough High School.
         </Container>
       </Box>
     </div>
